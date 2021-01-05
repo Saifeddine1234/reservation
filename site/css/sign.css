@@ -1,0 +1,139 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+label{
+  font-family: Arial;
+  color: black;
+margin-left: 100px;
+  font-size: 12px;
+ 
+}
+/* Full-width input fields */
+input[type=text], input[type=password]{
+  width: 80%;
+  height: 60%;
+  padding: 15px;
+  margin-left: 100px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+
+}
+
+input[type=text], input[type=password]{
+  background-color: #ddd;
+  font-family: 12px;
+  outline: none;
+}
+.sign{
+  width: 80px;
+ 
+  background-color: red;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.error{
+  color:red;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  width: 80%;
+  background-color: #7643ea;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  margin-left: 100px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  width:80%;
+  margin-left:100px;
+  padding: 10px 10px 10px 10px ;
+}
+
+.explore{
+    background-color: red;
+    padding: 50px 40px;
+      -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    width: 50%;
+}
+.add{
+  margin-left: 500px;
+}
+@media (max-width:360px){
+.registerbtn {
+  width: 80%;
+  background-color: #7643ea;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  margin-left: 30px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.add{
+  margin-left:10px;
+}
+input[type=text], input[type=password]{
+  width: 80%;
+  height: 60%;
+  padding: 15px;
+  margin-left: 30px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+
+}
+label{
+  font-family: Arial;
+  color: black;
+margin-left: 30px;
+  font-size: 12px;
+ 
+}
+input[type=text], input[type=password]{
+  width: 80%;
+  height: 60%;
+  padding: 15px;
+  margin-left: 30px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  width:80%;
+  margin-left: 30px;
+padding: 10px 10px 10px 10px ;
+}
+
+
+  }
