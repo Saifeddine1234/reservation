@@ -1,0 +1,121 @@
+
+body
+{
+ background-image: url(arierep.jpg);
+	margin: 0;
+	padding: 0;
+	
+}
+.menuu .gauche3 .gauche1 {
+	height: 400px;
+	width: 20%; 
+}
+img{
+	height: 100px;
+	width: 100px;
+}
+
+}
+
+tr{
+	
+text-align: center;
+	
+	height: 40px;
+	width: 60px;
+}
+ul
+{width: 100%; margin: 0 auto;padding: 0;}
+ ul li{list-style: none;display: list-item; padding: 20px;}
+ ul li:hover{
+ 	background:#000;}
+ul li a {
+	color: grey;text-decoration: none;}
+
+}
+td{
+text-align: center;
+	}
+
+section
+{
+	width: 48 %;
+}
+.td{
+	width: 160px;
+}
+
+
+}
+.mm{
+	width: 80px;
+	height: 50px;
+}
+
+.abcd
+{
+
+background-color: #fff;
+width: 90%;
+text-align: right;
+padding-left: 10px;
+}
+.abc
+{
+background:-webkit-linear-gradient(grey,#f0f8ff);
+width: 90%;
+text-align: left;
+padding-right: 10px;
+}
+.ajouter 
+{
+	padding: 7px;
+height:40px; 
+width: 40px;
+	}
+.input
+{
+
+	height: 40px;
+	width: 40px;
+	border: solid;
+}
+.panier
+{
+	height: 50px;
+	width: 50px;
+
+}
+.envoyer
+{background : #d2691e;
+	height: 50px;
+	width: 100px;
+}
+.menuu
+{
+	
+	width: 100%;
+	
+	padding :10px;
+	display: inline-block;
+}
+.menuu .gauche3
+{
+	width: 30%;
+	 float: left;
+
+}
+
+.menuu .droite
+{
+	width: 68%;
+height: 700px;
+float: right;
+	background:-webkit-linear-gradient(grey,#FFFFFF);
+	overflow: scroll;
+}
+h1
+{
+	background:-webkit-linear-gradient(black,#ffffff);
+
+}
